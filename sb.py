@@ -19,7 +19,7 @@ from urllib.parse import urlencode, quote
 from pathlib import Path
 _session = requests.session()
 
-chino = LINE("EMAIL",'PASSWORD', appName='CHROMEOS\t2.3.8\tChrome_OS\t1')
+chino = LINE("slynq1@gmail.com",'36091vwz', appName='CHROMEOS\t2.3.8\tChrome_OS\t1')
 chinoMid = chino.profile.mid
 chinoProfile = chino.getProfile()
 chinoProfile = chino.profile
@@ -27,8 +27,8 @@ chinoSettings = chino.getSettings()
 chinoPoll = OEPoll(chino)
 botStart = time.time()
 
-Owner = ["u555201dc63afeb4e5595e7973e6d1171"]
-admin = ["u555201dc63afeb4e5595e7973e6d1171"]
+Owner = ["u2abfa1f5eca5d588f3dd76cbb72a24d7"]
+admin = ["u2abfa1f5eca5d588f3dd76cbb72a24d7"]
 #==============================================================================#
 
 

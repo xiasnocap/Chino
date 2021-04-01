@@ -19,7 +19,7 @@ from urllib.parse import urlencode, quote
 from pathlib import Path
 _session = requests.session()
 
-chino = LINE("slynq1@gmail.com",'36091vwz', appName='CHROMEOS\t2.3.8\tChrome_OS\t1')
+chino = LINE("robertghanim582@gmail.com",'36091vwz', appName='CHROMEOS\t2.3.8\tChrome_OS\t1')
 chinoMid = chino.profile.mid
 chinoProfile = chino.getProfile()
 chinoProfile = chino.profile
